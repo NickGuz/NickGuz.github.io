@@ -1,0 +1,20 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Nick Guzzardo"
+theme = 'PaperMod'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params.homeInfoParams]
+Title = "yo"
+Content = "Might add something here eventually..."
+
+[[params.socialIcons]]
+name = "<platform>"
+url = "<link>"
+
+[[params.socialIcons]]
+name = "<platform 2>"
+url = "<link2>"
+
