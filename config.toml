@@ -2,6 +2,7 @@ baseURL = 'https://nickguz.github.io'
 languageCode = 'en-us'
 title = "Nick Guzzardo"
 theme = 'PaperMod'
+#hi
 
 [markup.goldmark.renderer]
 unsafe = true
