@@ -18,26 +18,5 @@ curl -o $HOME/Downloads/UbisoftConnectInstaller.exe -L https://ubi.li/4vxt9 Now 
  Click &amp;ldquo;Add a Game&amp;rdquo;, then &amp;ldquo;Add a Non-Steam game&amp;rdquo; in the bottom left of your steam library. Click &amp;ldquo;Browse&amp;rdquo; and find the installer we just downloaded. You will probably need to change the &amp;ldquo;Look in&amp;rdquo; directory at the top to something like /home/username in the dropdown.</description>
     </item>
     
-    <item>
-      <title>My second post</title>
-      <link>https://nickguz.github.io/posts/my-second-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nickguz.github.io/posts/my-second-post/</guid>
-      <description>This is my post body</description>
-    </item>
-    
-    <item>
-      <title>My third post</title>
-      <link>https://nickguz.github.io/posts/my-third-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nickguz.github.io/posts/my-third-post/</guid>
-      <description>Today we&amp;rsquo;re going to blah blah blah   list item 1
-  list item 2
-  unordered list item
-  </description>
-    </item>
-    
   </channel>
 </rss>
