@@ -1,6 +1,6 @@
 +++
 title = "Trackmania with Openplanet on Steam Deck/Linux"
-author = ["Nick Guz"]
+author = ["Nick Guzzardo"]
 date = 2023-01-16T13:15:00-05:00
 tags = ["linux", "steam-deck"]
 categories = ["category1"]
