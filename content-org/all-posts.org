@@ -1,6 +1,6 @@
 #+hugo_base_dir: ../
 
-* DONE Trackmania with Openplanet on Steam Deck/Linux      :linux:@category1:
+* DONE Trackmania with Openplanet on Steam Deck/Linux      :linux:steam_deck:@category1:
 CLOSED: [2023-01-16 Mon 13:15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: trackmania-openplanet-linux
@@ -95,10 +95,4 @@ exiting Trackmania).
 
 All done!
    
-
-* DONE My second post                                       :tag1:@category1:
-:PROPERTIES:
-:EXPORT_FILE_NAME: my-second-post
-:END:
-This is my post body
   
