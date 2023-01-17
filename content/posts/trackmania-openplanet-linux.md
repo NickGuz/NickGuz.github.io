@@ -2,10 +2,16 @@
 title = "Trackmania with Openplanet on Steam Deck/Linux"
 author = ["Nick Guzzardo"]
 date = 2023-01-16T13:15:00-05:00
-tags = ["linux", "steam-deck"]
+tags = ["linux", "steam-deck", "linux-gaming"]
 categories = ["category1"]
 draft = false
 +++
+
+This guide is still untested, but in theory should work on the steam deck or any
+other linux distro. Maybe pictures coming soon.
+
+<!--more-->
+
 
 ## Base Game Installation {#base-game-installation}
 
@@ -86,6 +92,10 @@ Okay, we're almost done. Now we just need to enable the `dinput8.dll`.
     ```shell
     protontricks -c winecfg $(ls -At $HOME/.local/share/Steam/steamapps/compatdata | head -1)
     ```
+    I'm not sure if this works on steam deck yet, so if protontricks doesn't work
+    from the command line just search protontricks in the KDE start menu -&gt;
+    select the proper steam app -&gt; Select the default wineprefix -&gt; Run winecfg
+    to open the same menu.
 3.  Click the Libaries tab. In the "New override for library" box, enter
     `dinput8` and click Add, Apply, OK.
 
@@ -101,3 +111,6 @@ Trackmania, or just force close it through steam (B to abort on steam deck after
 exiting Trackmania).
 
 All done!
+
+_Credits to Darren Griffin who wrote [this post](https://mrdarrengriffin.com/installing-trackmania-on-the-steam-deck/) of which I adapted the first half
+of this guide from._
