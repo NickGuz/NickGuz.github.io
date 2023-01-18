@@ -67,7 +67,9 @@ Trackmania like usual.
     one we've been working with, you should be able to run these commands, maybe
     modifying the steam directory location:
     ```shell
-    # Find the most recently modified prefix
+    # This will grab your most recently modified compatibility directory, so
+    # don't run this if you've added another one since installing Ubisoft Connect.
+    # If you have, you'll have to go to your compatdata directory and find it
     tm_pfx=$(ls -At $HOME/.local/share/Steam/steamapps/compatdata | head -1)
 
     # Set the Proton directory to use. If you didn't use experimental, you'll need to choose whichever version you did use
@@ -87,15 +89,8 @@ Okay, we're almost done. Now we just need to enable the `dinput8.dll`.
 
 1.  Install protontricks if you don't already have it. On steam deck, this can be
     done through Discover.
-2.  Open a terminal (can use Konsole on steam deck) and run this command to open
-    winecfg on our prefix:
-    ```shell
-    protontricks -c winecfg $(ls -At $HOME/.local/share/Steam/steamapps/compatdata | head -1)
-    ```
-    I'm not sure if this works on steam deck yet, so if protontricks doesn't work
-    from the command line just search protontricks in the KDE start menu -&gt;
-    select the proper steam app -&gt; Select the default wineprefix -&gt; Run winecfg
-    to open the same menu.
+2.  Now just search protontricks in the start menu -&gt; select the proper steam app
+    -&gt; Select the default wineprefix -&gt; Run winecfg to open the same menu.
 3.  Click the Libaries tab. In the "New override for library" box, enter
     `dinput8` and click Add, Apply, OK.
 
