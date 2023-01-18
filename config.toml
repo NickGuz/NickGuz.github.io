@@ -8,14 +8,14 @@ publishDir="docs"
 unsafe = true
 
 [params.homeInfoParams]
-Title = "yo"
-Content = "Might add something here eventually..."
+Title = "Yo"
+Content = "What up"
 
 [[params.socialIcons]]
-name = "<platform>"
-url = "<link>"
+name = "github"
+url = "https://github.com/nickguz"
 
 [[params.socialIcons]]
-name = "<platform 2>"
-url = "<link2>"
+name = "email"
+url = "mailto:nguzzardo3@gmail.com"
 
