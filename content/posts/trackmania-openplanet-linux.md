@@ -5,6 +5,8 @@ date = 2023-01-16T13:15:00-05:00
 tags = ["linux", "steam-deck", "linux-gaming"]
 categories = ["category1"]
 draft = false
+ShowToc = true
+ShowCodeCopyButtons = true
 +++
 
 This guide is still untested, but in theory should work on the steam deck or any

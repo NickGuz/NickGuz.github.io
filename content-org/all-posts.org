@@ -5,6 +5,7 @@
 CLOSED: [2023-01-16 Mon 13:15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: trackmania-openplanet-linux
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :ShowToc true :ShowCodeCopyButtons true
 :END:
 
 This guide is still untested, but in theory should work on the steam deck or any
