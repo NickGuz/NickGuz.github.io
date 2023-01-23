@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = "Nick Guzzardo"
 theme = 'PaperMod'
 publishDir="docs"
-comments = true
 
 [markup.goldmark.renderer]
 unsafe = true
