@@ -7,6 +7,7 @@ categories = ["category1"]
 draft = false
 ShowToc = true
 ShowCodeCopyButtons = true
+comments = true
 +++
 
 This guide is still untested, but in theory should work on the steam deck or any
