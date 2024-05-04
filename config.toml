@@ -1,21 +1,51 @@
-baseURL = 'https://nickguz.github.io'
-languageCode = 'en-us'
+# The URL the site will be built for
+base_url = "https://example.com"
 title = "Nick Guzzardo"
-theme = 'PaperMod'
-publishDir="docs"
+theme = "apollo"
 
-[markup.goldmark.renderer]
-unsafe = true
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
 
-[params.homeInfoParams]
-Title = "Yo"
-Content = "What up"
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/nickguz"
 
-[[params.socialIcons]]
-name = "email"
-url = "mailto:nguzzardo3@gmail.com"
+# paginate_by = 5
 
+taxonomies = [
+    { name = "categories", feed = true },
+    { name = "tags", feed = true },
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+author = "Nick Guzzardo"
+
+# Apollo theme stuff
+theme = "dark"
+toc = true
+use_cdn = false
+comment = false
+menu = [
+    { name = "/posts", url = "/posts", weight = 1 },
+    { name = "/projects", url = "/projects", weight = 2 },
+    { name = "/about", url = "/about", weight = 3 },
+    # { name = "/tags", url = "/tags", weight = 4 },
+]
+socials = [
+    # { name = "twitter", url = "https://twitter.com/goozah", icon = "twitter" },
+    { name = "github", url = "https://github.com/nickguz/", icon = "github" },
+]
+
+
+# after_dark_menu = [
+#     { url = "$BASE_URL", name = "Home" },
+#     { url = "$BASE_URL/categories", name = "Categories" },
+#     { url = "BASE_URL/tags", name = "Tags" },
+#     { url = "https://google.com", name = "Google" },
+# ]
