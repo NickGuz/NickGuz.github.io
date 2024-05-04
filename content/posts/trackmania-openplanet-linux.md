@@ -19,7 +19,7 @@ other linux distro. Maybe pictures coming soon.
 
 Download the Ubisoft Connect installer to your Downloads directory
 
-```shell
+```bash
 curl -o $HOME/Downloads/UbisoftConnectInstaller.exe -L https://ubi.li/4vxt9
 ```
 
@@ -52,8 +52,8 @@ just installed instead of the installer.
     from the wine prefix we just created. This should be the most recently
     updated prefix in `/home/deck/.local/share/Steam/steamapps/compatdata`. The
     full path will look something like
-    ```shell
-    /home/nickguz/.steam/steam/steamapps/compatdata/2965145486/pfx/drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+    ```bash
+    "/home/nickguz/.steam/steam/steamapps/compatdata/2965145486/pfx/drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe"
     ```
 
 "Play" this again and it'll open the Ubisoft launcher. Sign in and download
@@ -68,7 +68,7 @@ Trackmania like usual.
     one we've been working with, you should be able to run these commands, maybe
     modifying the steam directory location:
 
-    ```shell
+    ```bash
     # This will grab your most recently modified compatibility directory, so
     # don't run this if you've added another one since installing Ubisoft Connect.
     # If you have, you'll have to go to your compatdata directory and find it
@@ -84,7 +84,7 @@ Trackmania like usual.
 3.  If everything was set properly in the last step, you should be able to run
     through the installer like normal. You should be able to find Trackmania in
     the C directory. It will be in `C:\Program Files (x86)\ Ubisoft\ Ubisoft Game
-      Launcher\Games\Trackmania`. Select this directory. If you don't see that
+Launcher\Games\Trackmania`. Select this directory. If you don't see that
     there, the wine prefix is most likely not set correctly. Make sure it's set
     to the pfx dir of the correct prefix.
 
