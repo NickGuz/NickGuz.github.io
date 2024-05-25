@@ -1,6 +1,6 @@
 +++
 title = "Mapology"
-description = "Map editing web app using built with React"
+description = "Map editing web app built with React"
 weight = 3
 
 [extra]
