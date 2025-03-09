@@ -5,6 +5,7 @@ weight = 1
 
 [extra]
 local_image = "/projects/bmsrs.png"
+link_to = "https://github.com/NickGuz/bmsm-rs"
 +++
 
 Example project page
